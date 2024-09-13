@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash App Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .cash-app-container {
+            width: 350px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .profile {
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profile h2 {
+            font-size: 18px;
+            color: #333;
+        }
+        .amount-input {
+            width: 100%;
+            font-size: 32px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 20px;
+        }
+        .memo-input {
+            width: 100%;
+            font-size: 16px;
+            padding: 8px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 20px;
+        }
+        .send-btn {
+            width: 100%;
+            background-color: #00d54b;
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .send-btn:hover {
+            background-color: #00b442;
+        }
+        .balance {
+            color: #888;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cash-app-container">
+    <div class="profile">
+        <img src="https://via.placeholder.com/80" alt="Profile Picture">
+        <h2>$JohnDoe</h2>
+    </div>
+    
+    <input type="number" class="amount-input" placeholder="$0.00">
+    
+    <input type="text" class="memo-input" placeholder="For...">
+    
+    <button class="send-btn">Pay</button>
+    
+    <div class="balance">Available Balance: $1,000.00</div>
+</div>
+
+</body>
+</html>
